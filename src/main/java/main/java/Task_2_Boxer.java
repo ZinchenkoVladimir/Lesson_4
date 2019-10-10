@@ -30,13 +30,8 @@ public class Task_2_Boxer {
         Task_2_Boxer anotherBoxer = new Task_2_Boxer(30,70,85);
 
         if (ourBoxer.fight(anotherBoxer)) {
-            System.out.println("Our Boxer win!!! :)");
+            System.out.println("Our Boxer win!!! :)\nAnother Boxer loose");
         }
-        else System.out.println("Our Boxer loose :(");
-
-        if (anotherBoxer.fight(ourBoxer)) {
-            System.out.println("Another Boxer win");
-        }
-        else System.out.println("Another Boxer loose");
+        else System.out.println("Our Boxer loose :(\nAnother Boxer win");
     }
 }
