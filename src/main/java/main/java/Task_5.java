@@ -21,7 +21,7 @@ public class Task_5 {
             return name;
         }
 
-        private void setName(String name) {
+        public void setName(String name) {
             this.name = name;
         }
 
@@ -29,7 +29,7 @@ public class Task_5 {
             return age;
         }
 
-        private void setAge(int age) {
+        public void setAge(int age) {
             this.age = age;
         }
     }
