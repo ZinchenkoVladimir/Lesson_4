@@ -2,11 +2,11 @@ package main.java;
 
 public class Task_1_Human {
 
-    public static void main (String[]args){
+    public static void main(String[]args){
 
-        Human newHuman = new Human ("Izya", "Shniperson", 110, 95,185);
+        Human newHuman = new Human("Izya", "Shniperson", 110, 95,185);
 
-        newHuman.speak ();
+        newHuman.speak();
     }
 }
 
