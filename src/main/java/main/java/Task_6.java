@@ -7,9 +7,9 @@ public class Task_6 {
         Printer printer = new Printer();
         printer.setTonerLevelBlack(100);
         printer.setTonerLevelBlue(100);
-        printer.setTonerLevelMagenta(100);
+        printer.setTonerLevelMagenta(50);
         printer.setTonerLevelYellow(100);
-        printer.setColor(false);
+        printer.setColor(true);
         printer.setDuplex(true);
         printer.setPrintedPages(0);
         printer.setManufacturer("Какая-то китайщина, склёпанная левой пяткой бухого дядюшки Лу");
