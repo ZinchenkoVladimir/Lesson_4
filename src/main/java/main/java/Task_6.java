@@ -42,21 +42,6 @@ class Printer {
     private int tonerLevelBlue;
     private int printedPages;
 
-
-//        private Printer () {
-//
-//            this.manufacturer = manufacturer;
-//            this.model = model;
-//            this.isColor = isColor;
-//            this.type = type;
-//            this.isDuplex = isDuplex;
-//            this.tonerLevelBlack = tonerLevelBlack;
-//            this.tonerLevelMagenta = tonerLevelMagenta;
-//            this.tonerLevelYellow = tonerLevelYellow;
-//            this.tonerLevelBlue = tonerLevelBlue;
-//            this.printedPages = printedPages;
-//        }
-
     public String getManufacturer() {
         return manufacturer;
     }
